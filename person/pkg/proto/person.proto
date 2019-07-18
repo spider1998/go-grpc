@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package person;
+
+service Persons{
+    rpc CreatePerson(CreatePersonRequest) returns (Person){}
+}
+
+message CreatePersonRequest{
+    string name = 2;
+    int32 gender = 3;
+    int32 age = 4;
+}
+
+message Person{
+    string id = 1;
+    string name = 2;
+    int32 gender = 3;
+    int32 age = 4;
+    bool success = 5;
+}
