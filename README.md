@@ -1,6 +1,7 @@
 # go-grpc
 ![](https://upload-images.jianshu.io/upload_images/1456103-d058dcea9171755f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/552/format/webp)
 
+环境搭建：https://github.com/spider1998/Configuration-Tool/blob/master/grpc.txt
 
 基于Go语言的grpc实践使用实例
 
